@@ -3,7 +3,6 @@ package net.maustiptop100.ctrc.commands;
 import com.google.common.io.ByteStreams;
 import net.maustiptop100.ctrc.util.Editor;
 import net.maustiptop100.ctrc.util.LoadingScreen;
-import net.maustiptop100.ctrc.util.Resources;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -13,7 +12,6 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class OPEN implements CommandExecutor {
     private JFrame frame;

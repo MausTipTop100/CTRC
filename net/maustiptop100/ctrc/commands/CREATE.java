@@ -8,7 +8,6 @@ import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.util.concurrent.atomic.AtomicReference;
 
 public class CREATE implements CommandExecutor {
 
